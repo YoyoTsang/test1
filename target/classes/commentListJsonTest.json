@@ -1,0 +1,234 @@
+{
+  "$id": "http://example.com/example.json",
+  "type": "object",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "resultCode": {
+      "type": "string",
+      "examples": [
+        "1"
+      ]
+    },
+    "resultMsg": {
+      "type": "string",
+      "examples": [
+        "处理成功"
+      ]
+    },
+    "hotCommentList": {
+      "type": "array"
+    },
+    "commentList": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "examples": [
+              "12186025"
+            ]
+          },
+          "contId": {
+            "type": "string",
+            "examples": [
+              "5169969"
+            ]
+          },
+          "floor": {
+            "type": "string",
+            "examples": [
+              "0"
+            ]
+          },
+          "commentFloor": {
+            "type": "string",
+            "examples": [
+              "6"
+            ]
+          },
+          "isDeleted": {
+            "type": "string",
+            "examples": [
+              "1"
+            ]
+          },
+          "status": {
+            "type": "string",
+            "examples": [
+              "0"
+            ]
+          },
+          "address": {
+            "type": "string",
+            "examples": [
+              "??????网友"
+            ]
+          },
+          "objectName": {
+            "type": "string",
+            "examples": [
+              "赵丽颖经纪人比明星漂亮 沈月经纪人比沈月漂亮"
+            ]
+          },
+          "content": {
+            "type": "string",
+            "examples": [
+              "good1"
+            ]
+          },
+          "createTime": {
+            "type": "string",
+            "examples": [
+              "15小时前"
+            ]
+          },
+          "updateTime": {
+            "type": "string",
+            "examples": [
+              "15小时前"
+            ]
+          },
+          "sName": {
+            "type": "string",
+            "examples": [
+              "喔喔"
+            ]
+          },
+          "userDel": {
+            "type": "string",
+            "examples": [
+              "false"
+            ]
+          },
+          "userId": {
+            "type": "string",
+            "examples": [
+              "2185768"
+            ]
+          },
+          "userName": {
+            "type": "string",
+            "examples": [
+              "1735226227@SINA"
+            ]
+          },
+          "pic": {
+            "type": "string",
+            "examples": [
+              ""
+            ]
+          },
+          "praiseNum": {
+            "type": "string",
+            "examples": [
+              "0"
+            ]
+          },
+          "isPraise": {
+            "type": "string",
+            "examples": [
+              ""
+            ]
+          },
+          "addPraiseUrl": {
+            "type": "string",
+            "examples": [
+              "http://10.30.140.11:8000/clt/clt/addPraise.msp?objectId=12186025&objectType=0&c=5169969&menu="
+            ]
+          },
+          "inheritCommentVo": {
+            "type": "array"
+          }
+        }
+      }
+    },
+    "isLastPage": {
+      "type": "string",
+      "examples": [
+        "1"
+      ]
+    },
+    "nextUrl": {
+      "type": "string",
+      "examples": [
+        ""
+      ]
+    },
+    "realCount": {
+      "type": "string",
+      "examples": [
+        "6"
+      ]
+    },
+    "viteralCount": {
+      "type": "string",
+      "examples": [
+        ""
+      ]
+    },
+    "count": {
+      "type": "string",
+      "examples": [
+        "6"
+      ]
+    }
+  },
+  "required": [
+    "resultCode",
+    "resultMsg",
+    "hotCommentList",
+    "commentList",
+    "isLastPage",
+    "nextUrl",
+    "realCount",
+    "viteralCount",
+    "count"
+  ] 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

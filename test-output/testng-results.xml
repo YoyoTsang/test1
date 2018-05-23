@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="1" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite1" duration-ms="2995" started-at="2018-05-03T09:25:38Z" finished-at="2018-05-03T09:25:41Z">
+    <groups>
+      <group name="CommentTest">
+        <method signature="CommentListTest.commentPostMethod()[pri:0, instance:demo.CommentListTest@6a5fc7f7]" name="commentPostMethod" class="demo.CommentListTest"/>
+      </group> <!-- CommentTest -->
+    </groups>
+    <test name="demoTest" duration-ms="2995" started-at="2018-05-03T09:25:38Z" finished-at="2018-05-03T09:25:41Z">
+      <class name="demo.CommentListTest">
+        <test-method status="PASS" signature="commentPostMethod()[pri:0, instance:demo.CommentListTest@6a5fc7f7]" name="commentPostMethod" duration-ms="2966" started-at="2018-05-03T09:25:38Z" finished-at="2018-05-03T09:25:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- commentPostMethod -->
+      </class> <!-- demo.CommentListTest -->
+    </test> <!-- demoTest -->
+  </suite> <!-- Suite1 -->
+</testng-results>
